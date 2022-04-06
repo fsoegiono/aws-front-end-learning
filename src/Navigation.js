@@ -14,8 +14,8 @@ export const NavigationLink = ({ children, to }) => {
       to={to}
       className={({ isActive }) =>
         isActive
-          ? 'bg-yellow-300 hover:bg-yellow-400'
-          : 'bg-white hover:bg-yellow-100'
+          ? 'bg-red-300 hover:bg-red-400'
+          : 'bg-white hover:bg-red-100'
       }
     >
       <article className="w-full p-4">{children}</article>
